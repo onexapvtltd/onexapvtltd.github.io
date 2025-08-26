@@ -7,12 +7,39 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
       background: #0d0d0d;
       color: #fff;
-      text-align: center;
-      padding: 50px;
     }
-    h1 { color: #ff6600; }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ff6600;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #ff6600;
+    }
     .btn {
       display: inline-block;
       margin-top: 20px;
@@ -24,11 +51,57 @@
       font-weight: bold;
     }
     .btn:hover { background: #cc5200; }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to Onexa</h1>
-  <p>Onexa is a next-generation Game Publisher bringing immersive experiences worldwide.</p>
-  <a href="https://www.facebook.com/onexapvtltd" class="btn">Follow us on Facebook</a>
+
+  <!-- Header -->
+  <header>
+    <!-- Replace with your logo image -->
+    <img src="Onexa_logo.png" alt="Onexa Logo" style="max-width: 150px;">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#about">About Us</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section>
+    <h1>Welcome to Onexa</h1>
+    <p>Onexa is a next-generation Game Publisher bringing immersive and innovative gaming experiences to players worldwide.</p>
+    <a href="https://www.facebook.com/onexapvtltd" class="btn">Follow us on Facebook</a>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded in 2025, <strong>Onexa Pvt Ltd</strong> is dedicated to publishing high-quality, engaging, and immersive games across multiple platforms.  
+    We work closely with creative developers and studios to bring new ideas to life, ensuring players worldwide enjoy the best gaming experiences.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Onexa Pvt Ltd</strong></p>
+    <p>📍 Address: Goreswar Suklai Road, Guwahati, Assam, India</p>
+    <p>📧 Email: <a href="mailto:mail.onexa@gmail.com">mail.onexa@gmail.com</a></p>
+    <p>🌐 Facebook: <a href="https://www.facebook.com/onexapvtltd" target="_blank">facebook.com/onexapvtltd</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Onexa Pvt Ltd. All Rights Reserved.
+  </footer>
+
 </body>
 </html>
